@@ -14,7 +14,7 @@ jobs:
         fetch-depth: 0
     - name: Fetch latest data
       run: |-
-        curl https://tmversailles.tmclub.eu > tmversailles.tmclub.eu.html
+        curl https://tmclub.eu/portal.php?c=1366 > toastmastersversailles.html
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
